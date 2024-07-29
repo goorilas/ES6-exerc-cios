@@ -22,7 +22,7 @@ const alunos = [
 const passou = alunos.filter(aluno => aluno.nota >= 6);
 //utilizei o metodo foreach para repetir o array acima e exibilo no console.
 passou.forEach(aluno => {
-    console.log(`O aluno ${aluno.nome} passoou com nota ${aluno.nota}.`);
+    console.log(`O aluno ${aluno.nome} passou com nota ${aluno.nota}.`);
 });
 
 
